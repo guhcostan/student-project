@@ -1,0 +1,8 @@
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/services/StudentService.java
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/configs/SwaggerConfig.java
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/models/Student.java
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/controllers/StudentController.java
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/models/BaseEntity.java
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/repositories/StudentRepository.java
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/StudentProjectApplication.java
+/home/gustavoneves/Projetos/student-project/backend/src/main/java/com/delta/studentProject/models/Adress.java

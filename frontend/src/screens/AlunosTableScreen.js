@@ -42,7 +42,7 @@ const AlunosTableScreen = (props) => {
         <h1>Alunos cadastrados</h1>
         <Table columns={columns} data={students.map(student => ({
             ...student,
-            photo: <img style={{width: '40px', height: '40px'}} src={'http://localhost:8080/api/photo?path=' + student.photo}/>,
+            photo: <img style={{width: '40px', height: '40px'}} src={'api/photo?path=' + student.photo}/>,
             acoes: <div>
                 <IconButton  onClick={() => {
                     props.history.push('editar', {

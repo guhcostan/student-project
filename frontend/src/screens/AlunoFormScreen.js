@@ -51,7 +51,7 @@ const AlunoFormScreen = (props) => {
         <Label>Nome*</Label>
         <Input value={aluno.name} onChange={(value) => changeAluno('name', value.target.value)}/>
         <Label>Foto*</Label>
-        <Img src={photo ? URL.createObjectURL(photo) : 'http://localhost:8080/api/photo?path=' + aluno.photo}/>
+        <Img src={photo ? URL.createObjectURL(photo) : 'api/photo?path=' + aluno.photo}/>
         <Input type="file" id="img" name="img" accept="image/*" onChange={(value) => {
             setPhoto(value.target.files[0])
         }}/>
